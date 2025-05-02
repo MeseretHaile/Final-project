@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chill Valley Resort</title>
+    <meta name="author" content="Meseret Haile">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+     <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <h1>Chill Valley</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <img src="images/swiss-valley.jpg" alt="A river flowing through a green forest with snowy mountain in the background.">
+
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <img src="images/swiss-sunset.jpg" alt="Mountain lake with forest and sunset in the background.">
+        </section>
+
+        <div class="conform">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post" target="_blank">
+                <div class="firstSection">
+                    <label for="fname">Full Name<span class="required">*</span></label>
+                    <input type="text" name="fname" id="fname" required>
+
+                    <label for="myEmail">Email Address<span class="required">*</span></label>
+                    <input type="email" name="myEmail" id="myEmail" required>
+
+                    <label for="phone">Phone Number<span class="required">*</span></label>
+                    <input type="number" name="phone" id="phone" required>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>Preferred Contact Method<span class="required">*</span></legend>
+                        <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" checked required>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comments">Comments <span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+                    <input type="submit" name="mySubmit" id="mySubmit" value="Submit Form">
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Copyright ©2023 - Chill Valley</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+    
+</body>
+</html>
